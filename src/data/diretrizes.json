@@ -2,67 +2,83 @@
   "diretrizes": [
     {
       "id": 1,
-      "tipo": "Acessibilidade",
-      "diretriz": "Fornecer texto alternativo para todas as imagens",
-      "exemplo": "Usar o atributo alt=\"Descrição da imagem\" em elementos img",
-      "excecao": "Imagens decorativas podem ter alt vazio",
-      "comentario": "O texto alternativo deve descrever o conteúdo e função da imagem"
+      "tipo": "Motor",
+      "diretriz": "Fornecer ajuda relevante para o usuário após erros repetidos de controle",
+      "exemplo": "Fornecer ajuda em caso de erros repetidos de clique.<br> Apresentar o objetivo e os controles do jogo após erros. <br> Realçar controles após inatividade.",
+      "excecao": "Indispensável para a dinâmica do jogo",
+      "comentario": " Clareza nas regras e controle do jogo aumentam a motivação."
     },
     {
       "id": 2,
-      "tipo": "Acessibilidade",
-      "diretriz": "Garantir contraste adequado entre texto e fundo",
-      "exemplo": "Usar cores com contraste mínimo de 4.5:1 para texto normal",
-      "excecao": "Texto grande pode ter contraste de 3:1",
-      "comentario": "Verificar contraste usando ferramentas como WebAIM Contrast Checker"
+      "tipo": "Motor",
+      "diretriz": "Permitir ajuste no tempo de pressão do clique e entre cliques.",
+      "exemplo": "Permitir cliques mais longos. <br> Permitir ajuste no tempo entre cliques em caso de duplo clique.",
+      "excecao": "",
+      "comentario": "Idosos tendem a manter o dedo na tela por mais tempo em cliques e possuem dificuldades com a agilidade necessária em duplo click"
     },
     {
       "id": 3,
-      "tipo": "Navegação",
-      "diretriz": "Implementar navegação por teclado",
-      "exemplo": "Todos os elementos interativos devem ser acessíveis via Tab",
-      "excecao": "Elementos que não são interativos não precisam ser focáveis",
-      "comentario": "Usar tabindex apropriado e indicadores visuais de foco"
+      "tipo": "Cognitivo",
+      "diretriz": "Texto devem ter grau de leiturabilidade de acordo com o nível do usuário",
+      "exemplo": "Texto de ajuda. <br> Feedback. <br> Legendas.",
+      "excecao": "",
+      "comentario": "A leiturabilidade de um texto pode ser avaliada com a aplicação da formula de: 164,835 - (1,015 * total de palavras/total de frases) - (84,6 * total de sílabas/total de palavras)"
     },
     {
       "id": 4,
-      "tipo": "Navegação",
-      "diretriz": "Fornecer links de pular conteúdo",
-      "exemplo": "Link \"Pular para conteúdo principal\" no início da página",
-      "excecao": "Páginas muito simples podem não precisar",
-      "comentario": "Facilita navegação para usuários de leitores de tela"
+      "tipo": "Cognitivo",
+      "diretriz": "A tela de tutorial ou ajuda deve ser acessível a qualquer momento.",
+      "exemplo": "Botão de ajuda em todas as telas.",
+      "excecao": "",
+      "comentario": "Incluir idosos com declínio cognitivo e idosos podem ter dificuldades de entender as regras do jogo"
     },
     {
       "id": 5,
-      "tipo": "Conteúdo",
-      "diretriz": "Usar cabeçalhos hierárquicos corretamente",
-      "exemplo": "H1 para título principal, H2 para seções, H3 para subseções",
-      "excecao": "Não pular níveis de cabeçalho",
-      "comentario": "Estrutura lógica facilita navegação e compreensão"
+      "tipo": "Cognitivo",
+      "diretriz": "O jogo deve incorporar experiencias familiares ao usuário. ",
+      "exemplo": "Jogos de cozinha. <br> Jogos não digitais adaptados para digital.",
+      "excecao": "",
+      "comentario": "Baseado na andragogia é mais fácil aprender algo novo a partir de algo já conhecido "
     },
     {
       "id": 6,
-      "tipo": "Conteúdo",
-      "diretriz": "Fornecer descrições para formulários",
-      "exemplo": "Usar labels associados aos campos de entrada",
-      "excecao": "Campos com placeholder descritivo podem não precisar label",
-      "comentario": "Labels devem ser descritivos e únicos"
+      "tipo": "Cognitivo",
+      "diretriz": "O login não deve ser por e-mail e senha exclusivamente.",
+      "exemplo": "Botão de ajuda em todas as telas.",
+      "excecao": "",
+      "comentario": "Idosos podem ter dificuldade para lembrar e-mail e senha."
     },
     {
       "id": 7,
-      "tipo": "Multimídia",
-      "diretriz": "Fornecer legendas para vídeos",
-      "exemplo": "Incluir arquivo .srt ou usar elemento track",
-      "excecao": "Vídeos sem diálogo podem não precisar",
-      "comentario": "Legendas devem ser sincronizadas e precisas"
+      "tipo": "Cognitivo",
+      "diretriz": "Feedback deve ser intermitentes ou de longa duração e por múltiplos canais.",
+      "exemplo": "Feedback visual, sonoro e tátil <br> Feedback com botão de confirmação.",
+      "excecao": "",
+      "comentario": "Idosos devem ter tempo hábil para perceber e compreender o feedback"
     },
     {
       "id": 8,
-      "tipo": "Multimídia",
-      "diretriz": "Fornecer transcrição para áudios",
-      "exemplo": "Link para transcrição em texto abaixo do player",
-      "excecao": "Áudios puramente musicais podem não precisar",
-      "comentario": "Transcrição deve incluir todos os elementos sonoros relevantes"
-    }
+      "tipo": "Aprendizagem",
+      "diretriz": "O jogo deve possibilitar adaptações pedagógicas.",
+      "exemplo": "Adaptações ao perfil do usuário. <br> Escolha do foco de aprendizagem.",
+      "excecao": "Jogos com objetivo de ensino específico",
+      "comentario": "É necessário que o projeto de jogos ofereça a possibilidade de adaptações pedagógicas com o objetivo de atender de forma mais específica às necessidades, diagnosticadas pelo professor, em relação ao processo de alfabetização. <br> O jogo deve ser flexível e adaptável "
+    },
+    {
+    "id": 9,
+    "tipo": "Aprendizagem",
+    "diretriz": "Possibilitar escolher o que aprender",
+    "exemplo": "Temas de ensino. <br> Nível de dificuldade. <br> Disciplina.",
+    "excecao": "Jogos com objetivo de ensino específico.",
+    "comentario": "Providenciar autonomia no aprendizado seção 2.1."
+  },
+  {
+    "id": 10,
+    "tipo": "Aprendizagem",
+    "diretriz": "Priorizar o mérito ao demérito.",
+    "exemplo": "Nunca retirar pontuação. <br> Retirar metade dos pontos em caso de erro",
+    "excecao": "Quando imprescindível para a narrativa do jogo.",
+    "comentario": "Idosos gostam de ser recompensados positivamente. "
+  }
   ]
 }
