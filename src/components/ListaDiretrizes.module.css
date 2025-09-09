@@ -1,0 +1,66 @@
+﻿.listadiretrizes {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.tituloPrincipal {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.grupoTipo {
+  margin-bottom: 3rem;
+}
+
+.tituloTipo {
+  color: #34495e;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #3498db;
+  position: relative;
+}
+
+.tituloTipo::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #e74c3c;
+}
+
+.paragravoAbertura{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  color: #666;
+}
+
+.diretrizesContainer {
+  display: grid;
+  gap: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .lista-diretrizes {
+    padding: 1rem;
+  }
+  
+  .tituloPrincipal {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tituloTipo {
+    font-size: 1.5rem;
+  }
+}

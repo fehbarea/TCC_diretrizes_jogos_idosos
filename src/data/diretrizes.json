@@ -1,0 +1,68 @@
+﻿{
+  "diretrizes": [
+    {
+      "id": 1,
+      "tipo": "Acessibilidade",
+      "diretriz": "Fornecer texto alternativo para todas as imagens",
+      "exemplo": "Usar o atributo alt=\"Descrição da imagem\" em elementos img",
+      "excecao": "Imagens decorativas podem ter alt vazio",
+      "comentario": "O texto alternativo deve descrever o conteúdo e função da imagem"
+    },
+    {
+      "id": 2,
+      "tipo": "Acessibilidade",
+      "diretriz": "Garantir contraste adequado entre texto e fundo",
+      "exemplo": "Usar cores com contraste mínimo de 4.5:1 para texto normal",
+      "excecao": "Texto grande pode ter contraste de 3:1",
+      "comentario": "Verificar contraste usando ferramentas como WebAIM Contrast Checker"
+    },
+    {
+      "id": 3,
+      "tipo": "Navegação",
+      "diretriz": "Implementar navegação por teclado",
+      "exemplo": "Todos os elementos interativos devem ser acessíveis via Tab",
+      "excecao": "Elementos que não são interativos não precisam ser focáveis",
+      "comentario": "Usar tabindex apropriado e indicadores visuais de foco"
+    },
+    {
+      "id": 4,
+      "tipo": "Navegação",
+      "diretriz": "Fornecer links de pular conteúdo",
+      "exemplo": "Link \"Pular para conteúdo principal\" no início da página",
+      "excecao": "Páginas muito simples podem não precisar",
+      "comentario": "Facilita navegação para usuários de leitores de tela"
+    },
+    {
+      "id": 5,
+      "tipo": "Conteúdo",
+      "diretriz": "Usar cabeçalhos hierárquicos corretamente",
+      "exemplo": "H1 para título principal, H2 para seções, H3 para subseções",
+      "excecao": "Não pular níveis de cabeçalho",
+      "comentario": "Estrutura lógica facilita navegação e compreensão"
+    },
+    {
+      "id": 6,
+      "tipo": "Conteúdo",
+      "diretriz": "Fornecer descrições para formulários",
+      "exemplo": "Usar labels associados aos campos de entrada",
+      "excecao": "Campos com placeholder descritivo podem não precisar label",
+      "comentario": "Labels devem ser descritivos e únicos"
+    },
+    {
+      "id": 7,
+      "tipo": "Multimídia",
+      "diretriz": "Fornecer legendas para vídeos",
+      "exemplo": "Incluir arquivo .srt ou usar elemento track",
+      "excecao": "Vídeos sem diálogo podem não precisar",
+      "comentario": "Legendas devem ser sincronizadas e precisas"
+    },
+    {
+      "id": 8,
+      "tipo": "Multimídia",
+      "diretriz": "Fornecer transcrição para áudios",
+      "exemplo": "Link para transcrição em texto abaixo do player",
+      "excecao": "Áudios puramente musicais podem não precisar",
+      "comentario": "Transcrição deve incluir todos os elementos sonoros relevantes"
+    }
+  ]
+}
