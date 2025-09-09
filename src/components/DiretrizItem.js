@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import styles from './DiretrizItem.module.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 const DiretrizItem = ({ diretriz }) => {
   const [expandida, setExpandida] = useState(false);
 
@@ -22,7 +24,8 @@ const DiretrizItem = ({ diretriz }) => {
           className={`seta ${expandida ? 'expandida' : ''}`}
           aria-hidden="true"
         >
-          
+        <FontAwesomeIcon icon={ !expandida ? faAngleDown : faAngleUp} />
+
         </span>
       </button>
       
