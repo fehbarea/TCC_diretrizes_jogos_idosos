@@ -4,7 +4,7 @@
       "id": 1,
       "tipo": "Motor",
       "diretriz": "Fornecer ajuda relevante para o usuário após erros repetidos de controle",
-      "exemplo": "Fornecer ajuda em caso de erros repetidos de clique.<br> Apresentar o objetivo e os controles do jogo após erros. <br> Realçar controles após inatividade.",
+      "exemplo": "Fornecer ajuda em caso de erros repetidos de clique.\n Apresentar o objetivo e os controles do jogo após erros. \n Realçar controles após inatividade.",
       "excecao": "Indispensável para a dinâmica do jogo",
       "comentario": " Clareza nas regras e controle do jogo aumentam a motivação."
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "tipo": "Motor",
       "diretriz": "Permitir ajuste no tempo de pressão do clique e entre cliques.",
-      "exemplo": "Permitir cliques mais longos. <br> Permitir ajuste no tempo entre cliques em caso de duplo clique.",
+      "exemplo": "Permitir cliques mais longos. \n Permitir ajuste no tempo entre cliques em caso de duplo clique.",
       "excecao": "",
       "comentario": "Idosos tendem a manter o dedo na tela por mais tempo em cliques e possuem dificuldades com a agilidade necessária em duplo click"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "tipo": "Cognitivo",
       "diretriz": "Texto devem ter grau de leiturabilidade de acordo com o nível do usuário",
-      "exemplo": "Texto de ajuda. <br> Feedback. <br> Legendas.",
+      "exemplo": "Texto de ajuda. \n Feedback. \n Legendas.",
       "excecao": "",
       "comentario": "A leiturabilidade de um texto pode ser avaliada com a aplicação da formula de: 164,835 - (1,015 * total de palavras/total de frases) - (84,6 * total de sílabas/total de palavras)"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "tipo": "Cognitivo",
       "diretriz": "O jogo deve incorporar experiencias familiares ao usuário. ",
-      "exemplo": "Jogos de cozinha. <br> Jogos não digitais adaptados para digital.",
+      "exemplo": "Jogos de cozinha. \n Jogos não digitais adaptados para digital.",
       "excecao": "",
       "comentario": "Baseado na andragogia é mais fácil aprender algo novo a partir de algo já conhecido "
     },
@@ -52,23 +52,23 @@
       "id": 7,
       "tipo": "Cognitivo",
       "diretriz": "Feedback deve ser intermitentes ou de longa duração e por múltiplos canais.",
-      "exemplo": "Feedback visual, sonoro e tátil <br> Feedback com botão de confirmação.",
+      "exemplo": "Feedback visual, sonoro e tátil \n Feedback com botão de confirmação.",
       "excecao": "",
-      "comentario": "Idosos devem ter tempo hábil para perceber e compreender o feedback"
+      "comentario": "Idosos devem ter tempo hábil para perceber e compreender o feedback."
     },
     {
       "id": 8,
       "tipo": "Aprendizagem",
       "diretriz": "O jogo deve possibilitar adaptações pedagógicas.",
-      "exemplo": "Adaptações ao perfil do usuário. <br> Escolha do foco de aprendizagem.",
+      "exemplo": "Adaptações ao perfil do usuário. \n Escolha do foco de aprendizagem.",
       "excecao": "Jogos com objetivo de ensino específico",
-      "comentario": "É necessário que o projeto de jogos ofereça a possibilidade de adaptações pedagógicas com o objetivo de atender de forma mais específica às necessidades, diagnosticadas pelo professor, em relação ao processo de alfabetização. <br> O jogo deve ser flexível e adaptável "
+      "comentario": "É necessário que o projeto de jogos ofereça a possibilidade de adaptações pedagógicas com o objetivo de atender de forma mais específica às necessidades, diagnosticadas pelo professor, em relação ao processo de alfabetização. \n O jogo deve ser flexível e adaptável "
     },
     {
     "id": 9,
     "tipo": "Aprendizagem",
     "diretriz": "Possibilitar escolher o que aprender",
-    "exemplo": "Temas de ensino. <br> Nível de dificuldade. <br> Disciplina.",
+    "exemplo": "Temas de ensino. \n Nível de dificuldade. \n Disciplina.",
     "excecao": "Jogos com objetivo de ensino específico.",
     "comentario": "Providenciar autonomia no aprendizado seção 2.1."
   },
@@ -76,7 +76,7 @@
     "id": 10,
     "tipo": "Aprendizagem",
     "diretriz": "Priorizar o mérito ao demérito.",
-    "exemplo": "Nunca retirar pontuação. <br> Retirar metade dos pontos em caso de erro",
+    "exemplo": "Nunca retirar pontuação. \n Retirar metade dos pontos em caso de erro",
     "excecao": "Quando imprescindível para a narrativa do jogo.",
     "comentario": "Idosos gostam de ser recompensados positivamente. "
   }

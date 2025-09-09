@@ -38,17 +38,17 @@ const DiretrizItem = ({ diretriz }) => {
         >
           <div className={styles.diretrizCampo}>
             <h4>Exemplo:</h4>
-            <p>{diretriz.exemplo}</p>
+            <p className={styles.textoMultiLinha}>{diretriz.exemplo}</p>
           </div>
           
           <div className={styles.diretrizCampo}>
             <h4>Exceção:</h4>
-            <p>{diretriz.excecao}</p>
+            <p className={styles.textoMultiLinha}>{diretriz.excecao}</p>
           </div>
           
           <div className={styles.diretrizCampo}>
             <h4>Comentário:</h4>
-            <p>{diretriz.comentario}</p>
+            <p className={styles.textoMultiLinha}>{diretriz.comentario}</p>
           </div>
         </div>
       )}
