@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import styles from './DiretrizItem.module.css';
 
 const DiretrizItem = ({ diretriz }) => {
