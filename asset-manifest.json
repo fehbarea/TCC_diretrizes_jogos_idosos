@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TCC_diretrizes_jogos_idosos/static/css/main.afefc84f.css",
-    "main.js": "/TCC_diretrizes_jogos_idosos/static/js/main.9b6a0862.js",
+    "main.js": "/TCC_diretrizes_jogos_idosos/static/js/main.b8f7e867.js",
     "static/js/453.b3c4d538.chunk.js": "/TCC_diretrizes_jogos_idosos/static/js/453.b3c4d538.chunk.js",
     "index.html": "/TCC_diretrizes_jogos_idosos/index.html",
     "main.afefc84f.css.map": "/TCC_diretrizes_jogos_idosos/static/css/main.afefc84f.css.map",
-    "main.9b6a0862.js.map": "/TCC_diretrizes_jogos_idosos/static/js/main.9b6a0862.js.map",
+    "main.b8f7e867.js.map": "/TCC_diretrizes_jogos_idosos/static/js/main.b8f7e867.js.map",
     "453.b3c4d538.chunk.js.map": "/TCC_diretrizes_jogos_idosos/static/js/453.b3c4d538.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afefc84f.css",
-    "static/js/main.9b6a0862.js"
+    "static/js/main.b8f7e867.js"
   ]
 }
