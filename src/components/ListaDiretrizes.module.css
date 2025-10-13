@@ -9,11 +9,38 @@
   color: #2c3e50;
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
-.grupoTipo {
+
+
+.comoUtilizar {
   margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comoUtilizar h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.comoUtilizar p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.comoUtilizar a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.comoUtilizar a:hover {
+  text-decoration: underline;
 }
 
 .tituloTipo {
@@ -22,7 +49,7 @@
   font-weight: 600;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid #3498db;
+  border-bottom: 3px solid #0066cc;
   position: relative;
 }
 
@@ -36,14 +63,6 @@
   background-color: #e74c3c;
 }
 
-.paragravoAbertura{
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-bottom: 3rem;
-  color: #666;
-}
-
 .diretrizesContainer {
   display: grid;
   gap: 1rem;
@@ -51,16 +70,21 @@
 
 /* Responsividade */
 @media (max-width: 768px) {
-  .lista-diretrizes {
+  .listadiretrizes {
     padding: 1rem;
   }
   
   .tituloPrincipal {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   
   .tituloTipo {
     font-size: 1.5rem;
+  }
+  
+  .paragravoAbertura,
+  .comoUtilizar {
+    padding: 1rem;
   }
 }

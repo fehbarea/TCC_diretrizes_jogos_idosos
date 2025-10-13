@@ -19,7 +19,9 @@ const DiretrizItem = ({ diretriz }) => {
         aria-controls={`diretriz-content-${diretriz.id}`}
         id={`diretriz-${diretriz.id}`}
       >
-        <span className={styles.diretrizTexto}>{diretriz.diretriz}</span>
+        <span className={styles.diretrizTexto}>
+          <span className={styles.diretrizId}>{diretriz.numeroSequencial || diretriz.id}.</span> {diretriz.diretriz}
+        </span>
         <span 
           className={`seta ${expandida ? 'expandida' : ''}`}
           aria-hidden="true"
@@ -49,6 +51,10 @@ const DiretrizItem = ({ diretriz }) => {
           <div className={styles.diretrizCampo}>
             <h4>Comentário:</h4>
             <p className={styles.textoMultiLinha}>{diretriz.comentario}</p>
+          </div>
+          <div className={styles.diretrizCampo}>
+            <h4>Referência:</h4>
+            <p className={styles.textoMultiLinha}>{diretriz.referencia}</p>
           </div>
         </div>
       )}

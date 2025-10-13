@@ -1,84 +1,183 @@
 ﻿{
-  "diretrizes": [
+  "categorias": [
     {
       "id": 1,
-      "tipo": "Motor",
-      "diretriz": "Fornecer ajuda relevante para o usuário após erros repetidos de controle",
-      "exemplo": "Fornecer ajuda em caso de erros repetidos de clique.\n Apresentar o objetivo e os controles do jogo após erros. \n Realçar controles após inatividade.",
-      "excecao": "Indispensável para a dinâmica do jogo",
-      "comentario": " Clareza nas regras e controle do jogo aumentam a motivação."
+      "nome": "Motor",
+      "descricao": "Diretrizes relacionadas aos aspectos motores e interação física com o jogo"
     },
     {
       "id": 2,
+      "nome": "Cognitivo",
+      "descricao": "Diretrizes relacionadas aos aspectos cognitivos e processamento de informação"
+    },
+    {
+      "id": 3,
+      "nome": "Visão",
+      "descricao": "Diretrizes relacionadas aos aspectos visuais e de interface"
+    },
+    {
+      "id": 4,
+      "nome": "Aprendizagem",
+      "descricao": "Diretrizes relacionadas aos aspectos pedagógicos e de aprendizado"
+    }
+  ],
+  "diretrizes": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "tipo": "Motor",
+      "diretriz": "Fornecer ajuda relevante para o usuário após erros repetidos ou inatividade",
+      "exemplo": "Fornecer ajuda em caso de erros repetidos de clique.\n Apresentar o objetivo e os controles do jogo após erros. \n Realçar controles após inatividade.",
+      "excecao": "Indispensável para a dinâmica do jogo",
+      "comentario": "Erros previamente premeditados que são parte da dinâmica do jogo.",
+      "referencia": "SOUZA, G. et al. Investigating motivational aspects of brazilian elderly to interact with digital games. In: ANTONA, M.; STEPHANIDIS, C. (Ed.). UNIVERSAL ACCESS IN HUMAN- COMPUTER INTERACTION: METHODS, TECHNIQUES, AND BEST PRACTICES. 9737 de Lecture Notes in Computer Science., 2016, Cham. Anais [...] Cham: Springer International Publishing, 2016. p. 194–203. Disponível em: https://doi.org/10.1007/978-3-319-40250-5_19. \n LEE, S. et al. Mobile game design guide to improve gaming experience for the middle-aged and older adult population: User-centered design approach. JMIR Serious Games, JMIR Publications v. 9, n. 2, p. e24449, 2021. Disponível em: https://games.jmir.org/2021/2/e24449."
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
       "tipo": "Motor",
       "diretriz": "Permitir ajuste no tempo de pressão do clique e entre cliques.",
       "exemplo": "Permitir cliques mais longos. \n Permitir ajuste no tempo entre cliques em caso de duplo clique.",
       "excecao": "",
-      "comentario": "Idosos tendem a manter o dedo na tela por mais tempo em cliques e possuem dificuldades com a agilidade necessária em duplo click"
+      "comentario": "Idosos tendem a manter o dedo na tela por mais tempo em cliques e possuem dificuldades com a agilidade necessária em duplo clique ou digitação",
+      "referencia":"SOUZA, G. et al. Investigating motivational aspects of brazilian elderly to interact with digital games. In: ANTONA, M.; STEPHANIDIS, C. (Ed.). UNIVERSAL ACCESS IN HUMAN- COMPUTER INTERACTION: METHODS, TECHNIQUES, AND BEST PRACTICES. 9737 de Lecture Notes in Computer Science., 2016, Cham. Anais [...] Cham: Springer International Publishing, 2016. p. 194–203. Disponível em: https://doi.org/10.1007/978-3-319-40250-5_19. \n FONSECA, G. et al. Desenvolvimento de jogos para terceira idade: lições aprendidas com design participativo. In: . 2019. Anais [...] [s.n.], 2019. Disponível em: https://www.sbgames.org/sbgames2019/files/papers/ArtesDesignFull/197748.pdf."
     },
     {
       "id": 3,
+      "categoriaId": 2,
       "tipo": "Cognitivo",
-      "diretriz": "Texto devem ter grau de leiturabilidade de acordo com o nível do usuário",
+      "diretriz": "Texto devem ter grau de legibilidade de acordo com o nível escolar do usuário",
       "exemplo": "Texto de ajuda. \n Feedback. \n Legendas.",
       "excecao": "",
-      "comentario": "A leiturabilidade de um texto pode ser avaliada com a aplicação da formula de: 164,835 - (1,015 * total de palavras/total de frases) - (84,6 * total de sílabas/total de palavras)"
+      "comentario": "A leiturabilidade de um texto pode ser avaliada com a aplicação da formula de: 164,835 - (1,015 * total de palavras/total de frases) - (84,6 * total de sílabas/total de palavras)",
+      "referencia": "PESáNTEZ-CABRERA, P. et al. Towards an evaluation method of how accessible serious games are to older adults. In: 2020 IEEE 8TH INTERNATIONAL CONFERENCE ON SERIOUS GAMES AND APPLICATIONS FOR HEALTH (SEGAH). 2020. Anais [...] [S.l.: s.n.], 2020. p. 1–8. \n SANTANA, R. C. Levantamento de caracterısticas de jogabilidade de jogos educacionais para adultos mais velhos: um estudo de caso com foco na alfabetizaçao. 2015. Tese (Doutorado) — Dissertaçao 2015. \n MARTINS, T. B. F. et al. Readability formulas applied to textbooks in brazilian portuguese. [S.l.]: , 1996."
     },
     {
       "id": 4,
+      "categoriaId": 2,
       "tipo": "Cognitivo",
       "diretriz": "A tela de tutorial ou ajuda deve ser acessível a qualquer momento.",
       "exemplo": "Botão de ajuda em todas as telas.",
-      "excecao": "",
-      "comentario": "Incluir idosos com declínio cognitivo e idosos podem ter dificuldades de entender as regras do jogo"
+      "comentario": "Incluir idosos com declínio cognitivo e idosos podem ter dificuldades de entender as regras do jogo",
+      "referencia": "JALI, S. K.; ARNAB, S. The andragogical perspectives of older people’s interaction with digital game technologies: Gameplay on gesture and touch-based platforms. In: CONNOLLY,T.; BOYLE, L. (Ed.). PROCEEDINGS OF THE 10TH EUROPEAN CONFERENCE ON GAMES-BASED LEARNING. 2016, Nr Reading. Anais [...] Nr Reading: Academic Conferences Ltd, 2016. p. 319–326. ISBN 978-1-911218-10-4. ISSN: 2049-0992, 2049-100X; Series Title: Proceedings of the European Conference on Games-Based Learning; Web of Science ID: WOS:000389514500042. \n LEE, S. et al. Mobile game design guide to improve gaming experience for the middle-aged and older adult population: User-centered design approach. JMIR Serious Games, JMIR Publications v. 9, n. 2, p. e24449, 2021. Disponível em: https://games.jmir.org/2021/2/e24449."
     },
     {
       "id": 5,
+      "categoriaId": 2,
       "tipo": "Cognitivo",
       "diretriz": "O jogo deve incorporar experiencias familiares ao usuário. ",
-      "exemplo": "Jogos de cozinha. \n Jogos não digitais adaptados para digital.",
-      "excecao": "",
-      "comentario": "Baseado na andragogia é mais fácil aprender algo novo a partir de algo já conhecido "
+      "exemplo": " Jogos que retratam uma atividade diária. \n Jogos não digitais adaptados para digital.",
+      "comentario": "Baseado na andragogia é mais fácil aprender algo novo a partir de algo já conhecido ",
+      "referencia": "LEE, S. et al. Mobile game design guide to improve gaming experience for the middle-aged and older adult population: User-centered design approach. JMIR Serious Games, JMIR Publications v. 9, n. 2, p. e24449, 2021. Disponível em: https://games.jmir.org/2021/2/e24449. \n CHIN, Y. J.; LIM, W. N.; LEE, C. S. Mobile game for the elderly: Bundled bingo game. In: TENCON 2017 - 2017 IEEE REGION 10 CONFERENCE. 2017, New York. Anais [...] New York: IEEE, 2017. p. 2262–2267. ISBN 978-1-5090-1134-6. Series: TENCON IEEE Region 10 Conference Proceedings. \n FONSECA, G. et al. Desenvolvimento de jogos para terceira idade: lições aprendidas com design participativo. In: . 2019. Anais [...] [s.n.], 2019. Disponível em: https: //www.sbgames.org/sbgames2019/files/papers/ArtesDesignFull/197748.pdf. \n MOHSIN, N. F. et al. The adoption of digital games among older adults. International Journal of Advanced Computer Science and Applications (IJACSA), v. 13, n. 2, p. 39–45, 2022. Disponível em: https://thesai.org/Publications/ViewPaper?Volume= 13&Issue=2&Code=IJACSA&SerialNo=5. Acesso em: 26 abr. 2025. Disponível em: https://thesai.org/Publications/ViewPaper?Volume=13&Issue=2&Code=IJACSA&SerialNo=5."
     },
     {
       "id": 6,
+      "categoriaId": 2,
       "tipo": "Cognitivo",
-      "diretriz": "O login não deve ser por e-mail e senha exclusivamente.",
-      "exemplo": "Botão de ajuda em todas as telas.",
-      "excecao": "",
-      "comentario": "Idosos podem ter dificuldade para lembrar e-mail e senha."
+      "diretriz": "O login não deve ser exclusivamente por e-mail e senha ou por teste cognitivo.",
+      "exemplo": "Suporte para gerenciador de email e senha. \n Login por meio do e-mail.",
+      "comentario": "Idosos podem ter dificuldade para lembrar e-mail e senha.",
+      "referencia":"LEE, S. et al. Mobile game design guide to improve gaming experience for the middle-aged and older adult population: User-centered design approach. JMIR Serious Games, JMIR Publications v. 9, n. 2, p. e24449, 2021. Disponível em: https://games.jmir.org/2021/2/e24449.\n World Wide Web Consortium (W3C). Web Content Accessibility Guidelines (WCAG) 2.2. [S.l.]: , 2024. https://www.w3.org/TR/WCAG22/. Accessed: 2025-05-18."
     },
     {
       "id": 7,
+      "categoriaId": 2,
       "tipo": "Cognitivo",
       "diretriz": "Feedback deve ser intermitentes ou de longa duração e por múltiplos canais.",
       "exemplo": "Feedback visual, sonoro e tátil \n Feedback com botão de confirmação.",
       "excecao": "",
-      "comentario": "Idosos devem ter tempo hábil para perceber e compreender o feedback."
+      "comentario": "Idosos devem ter tempo hábil para perceber e compreender o feedback.",
+      "referencia": "CHIN, Y. J.; LIM, W. N.; LEE, C. S. Mobile game for the elderly: Bundled bingo game. In: TENCON 2017 - 2017 IEEE REGION 10 CONFERENCE. 2017, New York. Anais [...] New York: IEEE, 2017. p. 2262–2267. ISBN 978-1-5090-1134-6. Series: TENCON IEEE Region 10 Conference Proceedings. \n SANTANA, R. C. Levantamento de caracterısticas de jogabilidade de jogos educacionais para adultos mais velhos: um estudo de caso com foco na alfabetizaçao. 2015. Tese (Doutorado) — Dissertaçao 2015. \n LEE, S. et al. Mobile game design guide to improve gaming experience for the middle-aged and older adult population: User-centered design approach. JMIR Serious Games, JMIR Publications v. 9, n. 2, p. e24449, 2021. Disponível em: https://games.jmir.org/2021/2/e24449. \n FONSECA, G. et al. Desenvolvimento de jogos para terceira idade: lições aprendidas com design participativo. In: . 2019. Anais [...] [s.n.], 2019. Disponível em: https: //www.sbgames.org/sbgames2019/files/papers/ArtesDesignFull/197748.pdf."
     },
     {
       "id": 8,
+      "categoriaId": 3,
+      "tipo": "Visão",
+      "diretriz": "Ícones devem vir acompanhados de texto explicativo.",
+      "exemplo": "Ícone de casa geralmente associado ao menu principal com texto Menu Principal",
+      "excecao": "Prejudicar a jogabilidade ou o tamanho dos elementos.",
+      "comentario":"A presença de ícones e pictogramas podem causar confusão ou desentendimento por parte do público alvo",
+      "referencia": "SALAZAR-CARDONA, J. A. et al. Designing a tangible user interface (tui) for the elderly based on their motivations and game elements. Sensors, MDPI v. 23, n. 23, p. 9513, 2023. Disponível em: https://www.mdpi.com/1424-8220/23/23/9513. \n FONSECA, G. et al. Desenvolvimento de jogos para terceira idade: lições aprendidas com design participativo. In: . 2019. Anais [...] [s.n.], 2019. Disponível em: https: //www.sbgames.org/sbgames2019/files/papers/ArtesDesignFull/197748.pdf."
+    },
+    {
+      "id": 9,
+      "categoriaId": 3,
+      "tipo": "Visão",
+      "diretriz": "Apenas informações essenciais devem estar na tela.",
+      "exemplo": " Controles dos jogos. \n  Atalho para ajuda. \n  Vida do personagem.",
+      "comentario":"Indispensável para garantir a dimensão apropriada dos elementos.",
+      "referencia": "CHIN, Y. J.; LIM, W. N.; LEE, C. S. Mobile game for the elderly: Bundled bingo game. In: TENCON 2017 - 2017 IEEE REGION 10 CONFERENCE. 2017, New York. Anais [...] New York: IEEE, 2017. p. 2262–2267. ISBN 978-1-5090-1134-6. Series: TENCON IEEE Region 10 Conference Proceedings \n JALI, S. K.; ARNAB, S. The andragogical perspectives of older people’s interaction with digital game technologies: Gameplay on gesture and touch-based platforms. In: CONNOLLY,T.; BOYLE, L. (Ed.). PROCEEDINGS OF THE 10TH EUROPEAN CONFERENCE ON GAMES-BASED LEARNING. 2016, Nr Reading. Anais [...] Nr Reading: Academic Conferences Ltd, 2016. p. 319–326. ISBN 978-1-911218-10-4. ISSN: 2049-0992, 2049-100X; Series Title: Proceedings of the European Conference on Games-Based Learning; Web of Science ID: WOS:000389514500042. \nSANTANA, R. C. Levantamento de caracterısticas de jogabilidade de jogos educacionais para adultos mais velhos: um estudo de caso com foco na alfabetizaçao. 2015. Tese (Doutorado) — Dissertaçao 2015."
+    },
+
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "tipo": "Visão",
+      "diretriz": "Os elementos devem ser iguais em cor, formato e localização entre as telas.",
+      "exemplo": "Botão de ajuda sempre no mesmo local da tela e representado por um mesmo ícone, formato, texto e cor",
+      "comentario":"O Jogo é mais amigável se possuir interações intuitivo e fáceis de lembrar",
+      "referencia": "KAUFMAN, D.; IRELAND, A.; SAUVé, L. Playful Aging: Digital Games for Older Adults. [S.l.], 2020. Disponível em: https://agewell-nce.ca/wp-content/uploads/2020/02/AGE-WELL_WP4.2_ White-paper_GAMES.pdf."
+    },
+
+    {
+      "id": 11,
+      "categoriaId": 4,
       "tipo": "Aprendizagem",
       "diretriz": "O jogo deve possibilitar adaptações pedagógicas.",
       "exemplo": "Adaptações ao perfil do usuário. \n Escolha do foco de aprendizagem.",
       "excecao": "Jogos com objetivo de ensino específico",
-      "comentario": "É necessário que o projeto de jogos ofereça a possibilidade de adaptações pedagógicas com o objetivo de atender de forma mais específica às necessidades, diagnosticadas pelo professor, em relação ao processo de alfabetização. \n O jogo deve ser flexível e adaptável "
+      "comentario": "É necessário que o projeto de jogos ofereça a possibilidade de adaptações pedagógicas com o objetivo de atender de forma mais específica às necessidades, diagnosticadas pelo professor, em relação ao processo de alfabetização. \n O jogo deve ser flexível e adaptável ",
+      "referencia":"SANTANA, R. C. Levantamento de caracterısticas de jogabilidade de jogos educacionais para adultos mais velhos: um estudo de caso com foco na alfabetizaçao. 2015. Tese (Doutorado) — Dissertaçao 2015. \n CHIN, Y. J.; LIM, W. N.; LEE, C. S. Mobile game for the elderly: Bundled bingo game. In: TENCON 2017 - 2017 IEEE REGION 10 CONFERENCE. 2017, New York. Anais [...] New York: IEEE, 2017. p. 2262–2267. ISBN 978-1-5090-1134-6. Series: TENCON IEEE Region 10 Conference Proceedings."
     },
     {
-    "id": 9,
+    "id": 12,
+    "categoriaId": 4,
     "tipo": "Aprendizagem",
     "diretriz": "Possibilitar escolher o que aprender",
-    "exemplo": "Temas de ensino. \n Nível de dificuldade. \n Disciplina.",
+    "exemplo": "Escolher o temas de ensino. \n Determinar o nível de dificuldade. \n Escolher a disciplina",
     "excecao": "Jogos com objetivo de ensino específico.",
-    "comentario": "Providenciar autonomia no aprendizado seção 2.1."
+    "comentario": "Providenciar autonomia no aprendizado seção 2.1.",
+    "referencia":"MACHADO, M. d. C.; FERREIRA, R. L. R.; ISHITANI, L. Heuristics and recommendations for the design of mobile serious games for older adults. International Journal of Computer Games Technology, v. 2018„ p. 6757151, 2018. Disponível em: https://doi.org/10.1155/2018/6757151. Acesso em: 24 abr. 2025. Disponível em: https://doi.org/10.1155/2018/6757151. \n CHIN, Y. J.; LIM, W. N.; LEE, C. S. Mobile game for the elderly: Bundled bingo game. In: TENCON 2017 - 2017 IEEE REGION 10 CONFERENCE. 2017, New York. Anais [...] New York: IEEE, 2017. p. 2262–2267. ISBN 978-1-5090-1134-6. Series: TENCON IEEE Region 10 Conference Proceedings."
   },
   {
-    "id": 10,
+    "id": 13,
+    "categoriaId": 4,
     "tipo": "Aprendizagem",
     "diretriz": "Priorizar o mérito ao demérito.",
-    "exemplo": "Nunca retirar pontuação. \n Retirar metade dos pontos em caso de erro",
-    "excecao": "Quando imprescindível para a narrativa do jogo.",
-    "comentario": "Idosos gostam de ser recompensados positivamente. "
+    "exemplo": "Nunca retirar pontuação. \n Retirar metade dos pontos em caso de erro \n Feedback sempre positivo, mesmo em caso de erro.",
+    "excecao": "Aplicar o demérito quando imprescindível para a narrativa do jogo.",
+    "comentario": "Idosos gostam de ser recompensados positivamente.", 
+    "referencia":"MACHADO, M. d. C.; FERREIRA, R. L. R.; ISHITANI, L. Heuristics and recommendations for the design of mobile serious games for older adults. International Journal of Computer Games Technology, v. 2018„ p. 6757151, 2018. Disponível em: https://doi.org/10.1155/2018/6757151. Acesso em: 24 abr. 2025. Disponível em: https://doi.org/10.1155/2018/6757151 \n CHIN, Y. J.; LIM, W. N.; LEE, C. S. Mobile game for the elderly: Bundled bingo game. In: TENCON 2017 - 2017 IEEE REGION 10 CONFERENCE. 2017, New York. Anais [...] New York: IEEE, 2017. p. 2262–2267. ISBN 978-1-5090-1134-6. Series: TENCON IEEE Region 10 Conference Proceedings."
+  },
+  {
+    "id": 14,
+    "categoriaId": 4,
+    "tipo": "Aprendizagem",
+    "diretriz": "Estabelecer o conteúdo e o objetivo de aprendizado do capítulo ou do jogo.",
+    "exemplo":"Na introdução do jogo, uma breve narrativa pode contextualizar um determinado conteúdo. \n Apresentar o que será aprendido, por exemplo a fórmula matemática que será ensinada.",
+    "excecao": "Jogos com aprendizado implícito.",
+    "comentario": " De acordo com os princípios da Andragogia, adultos aprendem melhor quando compreendem o propósito e a relevância do que está sendo ensinado.",
+    "referencia": "AIRES, S. F.; BARBOSA, J. F. R.; MADEIRA, C. A. G. Desenvolvendo Jogos Educacionais Digitais Inovadores e Instigantes com o Framework PlayEduc. In: IX JORNADA DE ATUALIZAÇÃO EM INFORMÁTICA NA EDUCAÇÃO (JAIE 2020). 2020. Anais [...] [S.l.]: Sociedade Brasileira de Computação (SBC), 2020. p. 53–72. \n "
+  },
+  { 
+    "id": 15,
+    "categoriaId": 4,
+    "tipo": "Aprendizagem",
+    "diretriz": "O conteúdo ensinado deve ser analisado e dividido em pequenos blocos de informação",
+    "exemplo": "Blocos menores de conteúdos para possibilitar perguntas mais objetivas.",
+    "excecao": "Foco do JED específico e diminuto.",
+    "comentario":" Diminuir a carga cognitiva do jogo.",
+    "referencia": "ROCHA, H. V. d.; BARANAUSKAS, M. C. C. Design e Avaliação de Interfaces Humano- Computador. Campinas, SP: Instituto de Computação da UNICAMP, 2003. Acesso em: 05 set. 2025. Disponível em: https://arquivo.fmu.br/books/h-v-r.pdf. "
+  },
+  {
+    "id": 16,
+    "categoriaId": 4,
+    "tipo": "Aprendizagem",
+    "diretriz": "O jogo deve ser introduzido com um tutorial demonstrando que o jogo é acessível e desenvolvido para o usuário idoso.",
+    "exemplo": " Tutorial apresentado por idosos \n Treinamento com controles facilitados",
+    "excecao": "Jogos familiares para os idosos com controles muito simples.",
+    "comentario":"Idosos não experimentam novos jogos por acreditarem que não possuem a habilidade devido a fatores como as limitações acarretadas com idade, experiencia ruim no passado, não é feito para eles.",
+    "referencia":"SOUSA, A. S. d.; OLIVEIRA, G. S. d.; ALVES, L. H. A pesquisa bibliográfica: Princípios e fundamentos. Cadernos da Fucamp, v. 20, n. 43, p. 64–83, 2021. Disponível em: https://revistas.fucamp.edu.br/index.php/cadernos/article/view/2336."
   }
   ]
 }
